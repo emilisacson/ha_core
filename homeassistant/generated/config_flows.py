@@ -52,6 +52,8 @@ FLOWS = {
         "androidtv",
         "androidtv_remote",
         "anova",
+        "anova_custom",
+        "anova_custom_2",
         "anthemav",
         "aosmith",
         "apcupsd",
