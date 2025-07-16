@@ -1,0 +1,12 @@
+# High-level documentation for Anova Custom integration
+high_level_description: |
+  The Anova Custom integration allows you to control and monitor your Anova Precision Cooker from Home Assistant. You can set temperature, cooking time, and monitor device status in real time. The integration supports binary sensors, a climate entity, and follows the latest Home Assistant architecture and quality scale rules.
+installation_instructions: |
+  1. Go to Home Assistant Integrations.
+  2. Search for "Anova Custom" and follow the configuration flow.
+  3. Enter your Anova account credentials.
+  4. Confirm device setup and start controlling your cooker.
+removal_instructions: |
+  1. Go to Integrations in Home Assistant.
+  2. Find "Anova Custom" and click "Delete".
+  3. Confirm removal to clean up all entities and devices.

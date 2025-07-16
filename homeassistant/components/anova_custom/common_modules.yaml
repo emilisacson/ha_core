@@ -1,0 +1,5 @@
+# Required for Home Assistant quality scale compliance
+common_modules:
+  - coordinator
+  - entity
+  - diagnostics

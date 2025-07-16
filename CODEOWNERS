@@ -115,6 +115,8 @@ build.json @home-assistant/supervisor
 /tests/components/androidtv_remote/ @tronikos @Drafteed
 /homeassistant/components/anova/ @Lash-L
 /tests/components/anova/ @Lash-L
+/homeassistant/components/anova_custom/ @EmilIsacson
+/tests/components/anova_custom/ @EmilIsacson
 /homeassistant/components/anthemav/ @hyralex
 /tests/components/anthemav/ @hyralex
 /homeassistant/components/anthropic/ @Shulyaka

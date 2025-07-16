@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "username": "Email address",
+          "password": "Password"
+        },
+        "data_description": {
+          "username": "Enter the email address associated with your Anova account.",
+          "password": "Enter your Anova account password."
+        }
+      },
+      "reauth": {
+        "data": {
+          "username": "Email address",
+          "password": "Password"
+        },
+        "data_description": {
+          "username": "Enter the email address associated with your Anova account.",
+          "password": "Enter your Anova account password."
+        }
+      },
+      "confirm": {
+        "description": "Please confirm setup of your Anova Sous Vide device."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only one Anova integration instance is allowed.",
+      "no_devices_found": "No devices were found. Please ensure at least one Anova device is online.",
+      "reauth_successful": "You have successfully reauthenticated your Anova device."
+    },
+    "error": {
+      "invalid_auth": "The credentials you entered are not correct. Please try again.",
+      "cannot_connect": "Unable to connect to the Anova service. Please check your network and try again.",
+      "unknown": "An unknown error occurred. Please try again.",
+      "no_devices_found": "No devices were found. Make sure you have at least one Anova device online."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "cook_time": { "name": "Cook time" },
+      "state": { "name": "State" },
+      "mode": { "name": "Mode" },
+      "target_temperature": { "name": "Target temperature" },
+      "cook_time_remaining": { "name": "Cook time remaining" },
+      "heater_temperature": { "name": "Heater temperature" },
+      "triac_temperature": { "name": "Triac temperature" },
+      "water_temperature": { "name": "Water temperature" }
+    },
+    "binary_sensor": {
+      "cooking": { "name": "Cooking" },
+      "preheating": { "name": "Preheating" },
+      "maintaining": { "name": "Maintaining" },
+      "device_safe": { "name": "Device is safe" },
+      "water_leak": { "name": "Water leak" },
+      "water_level_critical": { "name": "Water level critical" },
+      "water_temp_too_high": { "name": "Water temperature too high" }
+    },
+    "climate": {
+      "climate": { "name": "Sous vide cooker" }
+    }
+  }
+}

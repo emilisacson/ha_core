@@ -1,0 +1,240 @@
+# serializer version: 1
+# name: test_entity_registry_and_state[binary_sensor]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Cooking',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_cooking',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'on',
+  })
+# ---
+# name: test_entity_registry_and_state[binary_sensor].1
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Preheating',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_preheating',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entity_registry_and_state[binary_sensor].2
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Maintaining',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_maintaining',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entity_registry_and_state[binary_sensor].3
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Device is safe',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_device_is_safe',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'on',
+  })
+# ---
+# name: test_entity_registry_and_state[binary_sensor].4
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Water leak',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_water_leak',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entity_registry_and_state[binary_sensor].5
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Water level critical',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_water_level_critical',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entity_registry_and_state[binary_sensor].6
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Water temperature too high',
+    }),
+    'context': <ANY>,
+    'entity_id': 'binary_sensor.anova_precision_cooker_water_temperature_too_high',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entity_registry_and_state[climate]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'current_temperature': 59.5,
+      'friendly_name': 'Anova Precision Cooker Sous vide cooker',
+      'hvac_action': <HVACAction.HEATING: 'heating'>,
+      'hvac_modes': list([
+        <HVACMode.OFF: 'off'>,
+        <HVACMode.HEAT: 'heat'>,
+      ]),
+      'max_temp': 100,
+      'min_temp': 0,
+      'supported_features': <ClimateEntityFeature: 1>,
+      'temperature': 60.0,
+    }),
+    'context': <ANY>,
+    'entity_id': 'climate.anova_precision_cooker_sous_vide_cooker',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'heat',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Cook time',
+      'icon': 'mdi:clock-outline',
+      'state_class': <SensorStateClass.TOTAL_INCREASING: 'total_increasing'>,
+      'unit_of_measurement': <UnitOfTime.SECONDS: 's'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_cook_time',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '3600',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].1
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker State',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_state',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'COOKING',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].2
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Mode',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_mode',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'COOK',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].3
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'device_class': 'temperature',
+      'friendly_name': 'Anova Precision Cooker Target temperature',
+      'icon': 'mdi:thermometer',
+      'state_class': <SensorStateClass.MEASUREMENT: 'measurement'>,
+      'unit_of_measurement': <UnitOfTemperature.CELSIUS: '°C'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_target_temperature',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '60.0',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].4
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Anova Precision Cooker Cook time remaining',
+      'icon': 'mdi:clock-outline',
+      'unit_of_measurement': <UnitOfTime.SECONDS: 's'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_cook_time_remaining',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '1800',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].5
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'device_class': 'temperature',
+      'friendly_name': 'Anova Precision Cooker Heater temperature',
+      'icon': 'mdi:thermometer',
+      'state_class': <SensorStateClass.MEASUREMENT: 'measurement'>,
+      'unit_of_measurement': <UnitOfTemperature.CELSIUS: '°C'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_heater_temperature',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '61.0',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].6
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'device_class': 'temperature',
+      'friendly_name': 'Anova Precision Cooker Triac temperature',
+      'icon': 'mdi:thermometer',
+      'state_class': <SensorStateClass.MEASUREMENT: 'measurement'>,
+      'unit_of_measurement': <UnitOfTemperature.CELSIUS: '°C'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_triac_temperature',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '62.0',
+  })
+# ---
+# name: test_entity_registry_and_state[sensor].7
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'device_class': 'temperature',
+      'friendly_name': 'Anova Precision Cooker Water temperature',
+      'icon': 'mdi:thermometer',
+      'state_class': <SensorStateClass.MEASUREMENT: 'measurement'>,
+      'unit_of_measurement': <UnitOfTemperature.CELSIUS: '°C'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.anova_precision_cooker_water_temperature',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '59.5',
+  })
+# ---

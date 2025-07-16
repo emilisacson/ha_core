@@ -1,0 +1,5 @@
+# Required for Home Assistant quality scale compliance
+brands:
+  - name: Anova
+    manufacturer: Anova Culinary
+    model: Precision Cooker

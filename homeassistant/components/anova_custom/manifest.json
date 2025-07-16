@@ -1,0 +1,11 @@
+{
+  "domain": "anova_custom",
+  "name": "Anova Sous Vide",
+  "codeowners": ["@EmilIsacson"],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/anova_sous_vide",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "quality_scale": "silver",
+  "requirements": []
+}
